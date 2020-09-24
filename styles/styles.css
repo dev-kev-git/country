@@ -96,7 +96,6 @@ h1{
     position: relative;
     width: 900px;
     height: 700px;
-    left:100px;
 
     background: #78D568;
   
@@ -112,6 +111,97 @@ h1{
 }
 .list  {
     padding: 50px;
+}
+.list ul{
+    list-style-type: upper-latin;
+}
+ .list-country li {
+    padding: 12px 20px;
+    width: 250px;
+    height: 50px;
+    margin-left: 30px;
+    font-size: 3em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.conten-modal{
+    width: auto;
+    height: 100%;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    animation: aparecer .3s linear;
+}
+
+.modal .fondoModal{
+    position: fixed;
+    width: 97%;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.modal .modal-content{
+    z-index: 1000;
+    position: absolute; 
+    width: 60%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 20px;
+
+    max-width: 660px;
+}
+
+.modal .modal-content .modal-header{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+
+    justify-content: space-between;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.modal .modal-content .modal-header .title-modal{
+    font-size: 30px;
+    padding-top: 10px;
+
+}
+
+.modal .modal-content .modal-header .btn-close-modal{
+    background: none;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.modal .modal-content .modal-header .btn-close-modal::after{
+    content: "X";
+}
+
+.modal .modal-content .modal-header .btn-close-modal:hover{
+    cursor: pointer;
+}
+
+.modal .modal-content .modal-body{
+    border-radius: 0px 0px 10px 10px;
+    background-color: white;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+
+    margin-bottom: 25px;
+}
+.modal-body ul {
+    list-style:none;
 }
 /*FOOTER*/
 .foot{
@@ -130,5 +220,6 @@ h1{
 .about{
     position: relative;
     left: 200px;
+
 }
 
