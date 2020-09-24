@@ -1,0 +1,32 @@
+[
+    {
+        "pais":"Peru",
+        "capital":"Lima",
+        "poblacion":"31988"
+    },
+    {
+        "pais":"Argentina",
+        "capital":"Buenos Aires",
+        "poblacion":"78988"
+    },
+    {
+        "pais":"Bolivia",
+        "capital":"La Paz",
+        "poblacion":"21988"
+    },
+    {
+        "pais":"Colombia",
+        "capital":"Bogota",
+        "poblacion":"78542"
+    },
+    {
+        "pais":"Ecuador",
+        "capital":"Quito",
+        "poblacion":"36588"
+    },
+    {
+        "pais":"Chile",
+        "capital":"Santiago",
+        "poblacion":"32988"
+    }
+]

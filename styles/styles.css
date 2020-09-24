@@ -1,0 +1,134 @@
+@import url(https://allfont.es/allfont.css?fonts=sansumi-bold);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sansumi-Bold', arial;
+}
+p{
+    color: #ffffffff;
+}
+h1{
+    color: #ffffffff;
+}
+/*header{
+    background-image: url(../img/italia.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}*/
+/*Header*/
+.titulo>h1{
+    position: absolute;
+    width: 773px;
+    height: 332px;
+    left: 450px;
+    top:200px;
+
+    font-size: 90px;
+
+    align-items: center;
+    text-align: center;
+
+    color:#30D840;
+
+}
+.titulo > h2{
+    position: absolute;
+    width: 773px;
+    height: 332px;
+    left: 450px;
+    top:410px;
+
+    font-size: 45;
+
+    align-items: center;
+    text-align: center;
+
+    color:#30D840;
+}
+.landing{
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+  
+}
+.landing > div{
+    width: 50%;
+
+}
+.landing > div:first-child{
+    margin-right: 20px;
+}
+.left{
+    position: relative;
+    width: 600px;
+    height: 700px;
+    right: 500px;
+
+    background: #78D568;
+    border-radius: 50%;
+}
+.right{
+    position: relative;
+    width: 600px;
+    height: 700px;
+    left: 300px;
+    top: -300px;
+
+    background: #78D568;
+    border-radius: 50%;
+}
+
+/*cuerpo*/
+.container{
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    margin-top: 39px;
+}
+.container > div{
+    width: 50%;
+}
+.container > div:first-child{
+    margin-right: 20px;
+}
+.cont{
+    position: relative;
+    width: 900px;
+    height: 700px;
+    left:100px;
+
+    background: #78D568;
+  
+}
+.cont > h1{
+
+    align-items:baseline;
+    text-align: left;
+    font-size:3em;
+    padding: 20px;
+    margin-top: 300px;
+    margin-right: -40px;
+}
+.list  {
+    padding: 50px;
+}
+/*FOOTER*/
+.foot{
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    background-color: #B3E3B2;
+    padding: 15px;
+}
+.foot > div{
+    width: 50%;
+}
+.foot > div:first-child{
+    margin-right: 20px;
+}
+.about{
+    position: relative;
+    left: 200px;
+}
+
