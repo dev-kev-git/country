@@ -1,4 +1,4 @@
-const proxyurl = "https://dev-kev-git.github.io/country/";
+const proxyurl = "https://dev-kev-git.github.io/country/"; /*se agrego para manejar el erro que causa el CORS*/
 const url ="paises.json"
 const lista = document.querySelector('#lista-paises ul');
 const detail = document.querySelector('#detail ul');
